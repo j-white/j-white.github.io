@@ -1,11 +1,12 @@
 # Site settings
-title: Jesse's blog
+title: Mr. White's Blog
 email: jesse@jessewhite.ca
 description: > # this means to ignore newlines until "baseurl:"
   My personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jessewhite.ca"
 github_username:  j-white
+twitter_username: jesse_white_
 
 # Build settings
 markdown: kramdown

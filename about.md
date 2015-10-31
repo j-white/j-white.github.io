@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-About me.
+Hacker, Developer and Open Source Enthusiast with an academic background in Mathematics.
+
+Currently works at  _The OpenNMS Group_.
