@@ -11,7 +11,7 @@ There are a few noteworthy changes in this release. For starters, we're now comp
 
 We've also reworked the layout for query editor - the previous implementation suffered from some visual issues on narrow displays. Inspired by the InfluxDB query editor, the new layout looks like:
 
-![OpenNMS Query Editor]({{ site.baseurl }}/assets/grafana-opennms-query-editor-v1.1.0.png)
+![OpenNMS Query Editor]({{ site.url }}/assets/grafana-opennms-query-editor-v1.1.0.png)
 
 
 At the bottom of the editor, you'll also find helpful notes related to using the datasource.
@@ -20,17 +20,17 @@ The update also includes support for a new _Filter_ query type, for which suppor
 
 Here we show an example of the _Trend_ filter applied to the number of JVM threads:
 
-![Number of threads with trend line]({{ site.baseurl }}/assets/grafana-opennms-threads-with-trend-filter.png)
+![Number of threads with trend line]({{ site.url }}/assets/grafana-opennms-threads-with-trend-filter.png)
 
 Another noteworthy feature is static template support. If you have multiple systems, or interfaces for which you want to see the charts, you can reference these using variables.
 
 For example, in the dashboard's _Templating_ section I've added a variable called **nodes** that has 3 values: ny-cassandra-1, ny-cassandra-2 and ny-cassandra-3:
 
-![Defining a template variable]({{ site.baseurl }}/assets/grafana-opennms-defining-template-variable.png)
+![Defining a template variable]({{ site.url }}/assets/grafana-opennms-defining-template-variable.png)
 
 In my query definition, I can now reference the **$nodes** variable in any attribute or expression query and have the query repeated for all of the selected nodes:
 
-![Using a template variable]({{ site.baseurl }}/assets/grafana-opennms-using-template-variable.png)
+![Using a template variable]({{ site.url }}/assets/grafana-opennms-using-template-variable.png)
 
 Note that the variable name is also used in the query label, since the label must be unique.
 
