@@ -10,4 +10,4 @@ twitter_username: jesse_white_
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
